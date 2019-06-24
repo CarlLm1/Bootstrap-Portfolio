@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About | Your Name</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body background="assets/images/kindajean1.png">
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">Carl Medina</a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+    </nav>
+
+    <!-- The following is going to be the grid for the About Me page Using Bootstrap. What we want the grid to look like on this page is to have 1 header on top with the border,
+  followed by 3 rows stacked on eachother,
+The grid will have 4 rows total, first row contains the header, the 2nd row of the grid will have 1 left column with a picture 
+and 1 right column with text.
+The 3rd row will have 1 paragraph, and the last row will have 1 paragraph-->
+
+    <!--This is the container-->
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <!--This is the first row-->
+            <div class="row">
+                <div class="col">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <!--This is the 2nd row. The goal is to have the text align with the picture as much as possible,
+            this is why the column sizes are customized. -->
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="assets/images/14225507_10205336320566099_267400856904460545_n.jpg" class="auth-image"
+                        alt="Me"></div>
+
+                <div class="col-sm-9">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac
+                        rhoncus nunc
+                        porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel
+                        dui
+                        massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo
+                        purus
+                        vitae sollicitudin consectetur. Latin is a very interesting language. It is also a very old
+                        language. It is hardly ever spoken today, but it influenced our English language, so that makes
+                        it pretty cool.</p>
+                </div>
+            </div>
+            <!--This is the third row-->
+            <div class="row">
+                <div class="col">
+                    <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio.
+                        Nunc id
+                        eros iaculis, pulvinar quam eget, egestas mauris.</p>
+                </div>
+            </div>
+            <!--This is the last row-->
+            <div class="row">
+                <div class="col">
+                    <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh
+                        tortor
+                        et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body background="assets/images/kindajean1.png">
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Carl Medina</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+<!-- The following is going to be the grid for the Portfolio page Using Bootstrap. What we want the grid to look like on this page is to have 1 header on top with the border,
+  followed by 3 rows of pictures stacked on eachother
+The grid will have 4 rows total, first row contains the header, the last 3 rows will have the pcitures within the container
+  So the 2nd row of the grid will have 2 pictures, the 3rd row will have 2 pictures, and the last row will have 1 picture-->
+
+<!-- This is the container for the grid-->
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <!-- This is the 1st row-->
+      <div class="row">
+        <div class="col">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
+      <!-- This is the 2nd row,-->
+      <div class="row">
+        <div class="col">
+          <div class="work">
+            <img src="assets/images/placeimg_640_480_grayscale_people.jpg" alt="Hangman">
+
+            <h3>Hangman</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="work">
+            <img src="assets/images/nature.jpg" alt="RPG Game">
+
+            <h3>RPG Game</h3>
+          </div>
+        </div>
+      </div>
+      <!--Third row-->
+      <div class="row">
+        <div class="col">
+          <div class="work">
+            <img src="assets/images/animal.jpg" alt="Trivia Game">
+
+            <h3>Trivia Game</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="work">
+            <img src="assets/images/tech.jpg" alt="Rutgers Info Widget">
+
+            <h3>Rutgers Info Widget</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Last row-->
+      <div class="row">
+        <div class="col">
+          <div class="work">
+            <img src="assets/images/Rock Paper Scissors.jpg" alt="Rock Paper Scissors">
+
+            <h3>Rock Paper Scissors</h3>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
+</body>
+
+</html>
