@@ -14,18 +14,21 @@
 
 
 <body background="assets/images/kindajean1.png">
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-        <header id="masthead">
-            <div class="container">
-                <a href="index.html" id="logo">Carl Medina</a>
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-            </div>
-        </header>
-    </nav>
+
+    <!-- This is the left header to be displayed on all pages-->
+    <div class="header-container">
+        <header>Carl Medina</header>
+
+        <!--This is the navigation bar to be displayed on all pages-->
+        <!-- I was unable to create the navigation bar with bootstrap however this is my attempt...-->
+        <nav>
+            <ul class="nav justify-content-end">
+                <li class="nav-item"><a class="nav-link active" href="index.html">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <!-- The following is going to be the grid for the About Me page Using Bootstrap. What we want the grid to look like on this page is to have 1 header on top with the border,
   followed by 3 rows stacked on eachother,
